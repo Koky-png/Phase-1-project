@@ -55,10 +55,11 @@
     </div>
   </section>
 
-  <!-- Fuel Consumption Section -->
-  <section id="consumption">
-    <h2>Fuel Consumption Tracker</h2>
-    <form id="consumption-form">
+
+      <!-- Fuel Consumption Section -->
+<section id="consumption">
+  <h2>Fuel Consumption Tracker</h2>
+  <form id="consumption-form">
       <label for="mileage">Mileage (KM):</label>
       <input type="number" id="mileage" placeholder="Enter mileage">
 
@@ -66,11 +67,15 @@
       <input type="number" id="liters" placeholder="Enter liters of fuel consumed">
 
       <button type="button" onclick="addConsumption()">Add Consumption</button>
-    </form>
+  </form>
 
-    <div id="consumption-list">
+  <div id="consumption-list">
       <h3>Your Consumption Records:</h3>
       <ul id="consumptions"></ul>
+  </div>
+</section>
+<span class="error-message" id="consumption-error" style="display:none;"></span>
+
     </div>
   </section>
 
