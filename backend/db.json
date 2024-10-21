@@ -1,0 +1,47 @@
+{
+    "profile": {
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    "vehicles": [
+      {
+        "vehicle": "Toyota Camry",
+        "mileage": 50000,
+        "liters": 60
+      },
+      {
+        "vehicle": "Honda Accord",
+        "mileage": 45000,
+        "liters": 50
+      }
+    ],
+    "fuelAlternatives": [
+      {
+        "name": "Gasoline",
+        "cost": "1.50 per gallon"
+      },
+      {
+        "name": "Biofuel",
+        "cost": "2.00 per gallon"
+      },
+      {
+        "name": "Hydrogen",
+        "cost": "3.50 per gallon"
+      }
+    ],
+    "consumption": [
+      {
+        "vehicle": "Toyota Camry",
+        "date": "2024-10-21",
+        "mileage": 50,
+        "liters": 5
+      },
+      {
+        "vehicle": "Honda Accord",
+        "date": "2024-10-20",
+        "mileage": 45,
+        "liters": 4.5
+      }
+    ]
+  }
+  
